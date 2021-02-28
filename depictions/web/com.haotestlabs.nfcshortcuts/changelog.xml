@@ -1,0 +1,10 @@
+<changelog>
+	<changes>
+		<version>1.0.1-1</version>
+		<change>Compiled For arm64e</change>
+	</changes>
+	<changes>
+		<version>1.0.0-1</version>
+		<change>Initial release</change>
+	</changes>
+</changelog>

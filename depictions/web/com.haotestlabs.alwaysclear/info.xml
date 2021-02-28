@@ -1,0 +1,20 @@
+<package>
+	<id>com.haotestlabs.alwaysclear</id>
+	<name>AlwaysClear</name>
+	<version>1.1.1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>13.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Get rid of that "Clear up next" alert in the music player!</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Compiled the preference bundle for arm64e.</change>
+	</changelog>
+	<links></links>
+</package>

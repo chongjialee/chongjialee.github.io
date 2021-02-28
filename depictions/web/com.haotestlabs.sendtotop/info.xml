@@ -1,0 +1,15 @@
+<package>
+	<id>com.haotestlabs.sendtotop</id>
+	<name>SendToTop</name>
+	<version>1.0.0-1</version>
+	<compatibility></compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Send songs to the top by 3D Touch or a long press.</description>
+		<description>This was for the Apple Music app in IOS 11, this is no longer maintained!</description>
+	</descriptionlist>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

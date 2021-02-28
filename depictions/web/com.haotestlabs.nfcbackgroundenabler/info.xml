@@ -1,0 +1,20 @@
+<package>
+	<id>com.haotestlabs.nfcbackgroundenabler</id>
+	<name>NFCBackgroundEnabler</name>
+	<version>1.2.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>13.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Enables native background NFC detection on iPhones.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>A small change in the logic, no real change in functionality.</change>
+	</changelog>
+	<links></links>
+</package>
