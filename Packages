@@ -1,16 +1,42 @@
-Package: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Version: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Architecture: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Maintainer: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Filename: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Size: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-MD5sum: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-SHA1: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-SHA256: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Section: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Description: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-SileoDepiction: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py or Manually Entered if Not In Tweaks `control` file.
-Depiction: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py or Manually Entered if Not In Tweaks `control` file.
-Installed-Size: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Name: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
-Priority: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Package: com.arya06.nappytime14
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: arya06
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.arya06.sleepytime14
+Filename: ./debians/com.arya06.nappytime14_0.0.1_iphoneos-arm.deb
+Size: 27218
+MD5sum: 67172b3712c158c66389fad12b406301
+SHA1: f583271ffc916b01f58bc7391cc6a6e3ae7a5f0b
+SHA256: f9446e0db0ab5e615ef99819ca0c8be45c4053d14c25f910fa9731bedef504e5
+SHA512: 23fe88bf156bac29665d9af1e2e012a79137927b133b398d75f3c017fe455655b70a20e203b816801c7ca57da9496a6be22e8a4eebeb2975170b19de8bd6c5b5
+Description: Countdowns for your alarms!
+Name: NappyTime14
+Author: arya06
+Depiction: https://arya1106.github.io/repo/depictions/web/?p=com.arya06.nappytime14
+SileoDepiction: https://arya1106.github.io/repo/depictions/native/com.arya06.nappytime14/depiction.json
+Icon: https://user-images.githubusercontent.com/62923164/106336362-b8b03100-625c-11eb-88e0-d6896fed6ab8.png
+
+Package: com.arya06.nappytime14
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: arya06
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.arya06.sleepytime14
+Filename: ./debians/com.arya06.nappytime14_0.0.2_iphoneos-arm.deb
+Size: 27456
+MD5sum: e9c4ad7983d03462b3aaf803ccec2ca0
+SHA1: 2591318b3533c09cb5920f1d10c7682f85ce5125
+SHA256: f93a6ca031936934dd3732e6436def5c13af580f5bc7d96c1b210917a3784e24
+SHA512: e4d3b6d6e0d7e56cb0f6aac37042d8e3d2a2c436aad9bc7c6ace0b8078122ce5595db65f9e3edcebaa4c213c33e1d01fc1b6a2c9d53261475884ffe18a2ef6d6
+Description: Countdowns for your alarms!
+Name: NappyTime14
+Author: arya06
+Depiction: https://arya1106.github.io/repo/depictions/web/?p=com.arya06.nappytime14
+SileoDepiction: https://arya1106.github.io/repo/depictions/native/com.arya06.nappytime14/depiction.json
+Icon: https://user-images.githubusercontent.com/62923164/106336362-b8b03100-625c-11eb-88e0-d6896fed6ab8.png
+
