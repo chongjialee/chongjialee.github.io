@@ -1,37 +1,12 @@
-Architectures: iphoneos-arm
-Codename: stable
-Components: main
-Date: Fri, 07 Aug 2020 02:56:15 +0000
-Description: Main repo for ArandomDev's tweaks.
-Label: ArandomDev's Repo
-Origin: ArandomDev's Repo
-Suite: Main
+Origin: JFZ's test repo
+Label: JFZ's test repo
+Suite: stable
 Version: 1.0
-MD5Sum:
- 80b2665b7d09c15c946acdf784343018            15400 Packages
- 2c5b19df62f62c89b01a06f659c4b557             4354 Packages.bz2
- f49e24f945b70b608dd8ae40ab78cda6             4418 Packages.gz
- e55199b795e323d441b888d139dc73ad             3996 Packages.xz
- a3f207bfcbeb5686a89e4091c386faaa             3957 Packages.zst
- c97538f0b111164bf95e4cf05ba8739c              224 Release
-SHA1:
- 3cf6d3120070ca49c5df06690ec73e4751e99ffb            15400 Packages
- 2fecb38bc159ad1d9cfcd7ceea074cf836f88b3c             4354 Packages.bz2
- 21e1f898023f62254a2fa42c683b1bdf2896f8e5             4418 Packages.gz
- d03cdad94badfad09ebdf79919fda4a0b95c701a             3996 Packages.xz
- a843df7ba4d5adc1af9ab35311c7a5b5c06c2a90             3957 Packages.zst
- aba16ce933360724643d7b27efc3563940576fa5              224 Release
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: it's my personal repo.
+
 SHA256:
- 8578ee26e5da49a361def9ccc042b5bb029d651b5b92050b16a785f8075dd17e            15400 Packages
- a28c4480373ec3e42a5d39882e0d3496134ef6ca4b3d6939b2a8890075335119             4354 Packages.bz2
- 2be56034072b109bc901d82c202beb3acf981dd525333cac1e27c885db67b90c             4418 Packages.gz
- 6ccf66fbd96c661e6a5d779e6535cd20390bdbcde651e9e4c4cd8ffc1a8c7100             3996 Packages.xz
- 87509c3ab66afb2f9dfdf2a937ab5d21a943d0e65a6b92d681560b15b02a5259             3957 Packages.zst
- 5484dc8cf8170225707ef6f227771d43542ad89fa6e35be9d927919be5c40402              224 Release
-SHA512:
- acaf101d9aa680be6a9dff178cc92ddf37d3900c38441cd949787d13049e8785c430db7b80f4f743d9b5843774b861ed54ccb1ade761e53f59ffa7b276b53e22            15400 Packages
- 6e845e536a9c3bb67c62867fb46f39fadd3675950b34832b2356de6fffd89efc16ef9940c0e9373eeefe74b2eeaf408cb100cfce03870a83561ee8d98904260d             4354 Packages.bz2
- 760580d43e70ff618757beeb637f01e802b8ae281ccd3e81369f564cf11d45a505510a8acea35b39ead69cba5f8990b9798fafdc37a642db1ef6ae97ce915b6c             4418 Packages.gz
- bb66911b71ba92768eedad990f6ab03acf9e356b2d931b2c2eb97b0ac78836cc29b172e64bb1c11b46e95fa258977acdeed6d15fff8baa4ef27a89fb679f45c1             3996 Packages.xz
- f6dcc4cefd8082e8462da585d59c1b17570d0375cd072b9d0fe014ddf515fead3c50d319fcbf5b5b791475c77136db6febd33fd40476f6e161dcd76aa843da7b             3957 Packages.zst
- a10b5311ecac5c0c7f3f6487ffa96040b678859ba885948848023a911dd30f425ed850e4400d5c29116b991c8401ffd40b446f4a419083c82699ad2e5169a6e0              224 Release
+ 6edd8ef97c857a8e1cc10784487cdd235e6572425bbfb084ad9bdcc212c97628 584 Packages.bz2
+ be633b3df273705b3482150c181b22eef8aa6220e5f90d18cd0759a2ea29d819 576 Packages.xz
