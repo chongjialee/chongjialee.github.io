@@ -1,12 +1,12 @@
-Origin: ConorTheDev's Repo
-Label: ConorTheDev's Repo
+Origin: JFZ's Repo
+Label: JFZ's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: The home of ConorTheDev's Free Tweaks
+Description: JFZ's jailbreak tweaks
 
 SHA256:
- 3999e888fc1cc07bad03388b7aed1bf509f4af988eb2abe673ed6dfe8a32bd9c 1509 Packages.bz2
- 51b17e96ac035e31ef438f644601547cf0322c6daa2bec7f5435c75b8236faf6 1364 Packages.xz
+ a2e285338c468b2fdbefa6660ed80a7cd80da7062cb97f1b9191995bfbb17dc6 568 Packages.bz2
+ e22518a314554662f1352e879d35d419268d90b0f725c420e991139662e7a7a0 556 Packages.xz
