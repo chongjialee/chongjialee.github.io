@@ -1,0 +1,4 @@
+# 在DOCK栏和主屏幕每行放置5个APP
+
+由本人整合betterFiveIconDock和betterFiveColumnHomescreen两个插件的功能，效果参见截图。
+
