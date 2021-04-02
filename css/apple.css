@@ -1,0 +1,506 @@
+@charset "UTF-8";
+/* 自定义全局变量 */
+/* 字体定义 */
+.font-subtext, .featured .tweaks li a p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #86868b;
+}
+
+.font-headline, .featured .tweaks li a h3 {
+  font-weight: 500;
+  font: -apple-system-headline;
+}
+
+.font-semibold, h1,
+h2,
+h3,
+h4,
+h5,
+h6, section .content > [role=header] {
+  font-weight: 600;
+}
+
+.font-bold, strong,
+b, .featured .tweaks li a h3 {
+  font-weight: 700;
+}
+
+/* 亚像素 */
+.subpixel-line, hr, nav::after {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #d2d2d7;
+}
+
+.has-subpixel .subpixel-line, .has-subpixel hr, .has-subpixel nav::after {
+  height: 0.5px;
+}
+
+.has-subpixel-3x .subpixel-line, .has-subpixel-3x hr, .has-subpixel-3x nav::after {
+  height: 0.33333px;
+}
+
+/* 基本初始样式 */
+html .depiction {
+  background: transparent;
+}
+
+body {
+  font-family: system-ui, BlinkMacSystemFont, -apple-system-font, "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-style: normal;
+  background-color: #fff;
+  color: #1d1d1f;
+  font: -apple-system-body;
+}
+
+.cydia body {
+  margin-top: 35px;
+}
+
+.depiction body {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body,
+textarea,
+button {
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1d1d1f;
+}
+
+hr {
+  border: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+a,
+button {
+  color: #027fff;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+/* 调试样式 */
+.bg {
+  background-color: aquamarine;
+}
+
+.bd {
+  border: 1px solid rgba(255, 147, 0, 0.5);
+}
+
+/* Your Styles */
+main {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #f5f5f7;
+}
+
+/* 媒体查询 */
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1441px) {
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 692px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+nav::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+nav .content {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0 15px;
+  height: 48px;
+}
+
+nav .content a {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 24px;
+  height: 44px;
+}
+
+nav .content img {
+  width: 24px;
+  height: 44px;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+}
+
+header .content {
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+
+header .content .logo {
+  margin: 0 auto;
+  width: 104px;
+  height: 104px;
+}
+
+@media only screen and (max-width: 734px) {
+  header .content .logo {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+header .content .title {
+  font-size: 24px;
+}
+
+header .content .intro {
+  margin: 10px 0 16px;
+}
+
+/* Main */
+.addstore li a {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  align-items: center;
+  margin: 8px auto;
+  padding-left: 20px;
+  width: 180px;
+  height: 36px;
+  border-radius: 18px;
+  font-size: 16px;
+  background-color: #f5f5f7;
+}
+
+.addstore li a img {
+  margin-right: 5px;
+  width: 24px;
+}
+
+section {
+  position: relative;
+}
+
+section .content {
+  position: relative;
+  padding: 20px 15px 32px;
+}
+
+section .content > [role=header] {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+section .content > [role=footer] {
+  margin-top: 6px;
+}
+
+section .content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: calc(100% - 30px);
+  height: 1px;
+  background-color: #d2d2d7;
+}
+
+section:last-child::after {
+  border-bottom: transparent;
+}
+
+.card {
+  margin: 15px auto;
+  padding: 48px 30px;
+  border-radius: 18px;
+  background-color: #fff;
+}
+
+.useful {
+  background-color: #fff;
+}
+
+.useful p {
+  margin-bottom: 6px;
+}
+
+.useful p a {
+  position: relative;
+}
+
+.useful p a::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  right: -11px;
+  display: block;
+  width: 11px;
+  height: 11px;
+  background-image: url(../img/symbol/forward.svg);
+  background-size: 11px 11px;
+}
+
+.useful .content::after {
+  background: transparent;
+}
+
+.featured {
+  background-color: #f5f5f7;
+}
+
+.featured .tweaks li a {
+  position: relative;
+  display: block;
+  padding: 19px 16px 19px 80px;
+  border-radius: 18px;
+  margin: 15px auto;
+  background-color: #fff;
+}
+
+.featured .tweaks li a img {
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  width: 48px;
+  height: 48px;
+}
+
+.featured .tweaks li a p {
+  color: rgba(60, 60, 67, 0.6);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.featured .tweaks li a::after1 {
+  position: absolute;
+  content: "";
+  bottom: 20px;
+  right: 20px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(/assets/label.svg);
+}
+
+/* Footer */
+footer {
+  background-color: #f5f5f7;
+}
+
+footer .content {
+  padding: 15px 0;
+}
+
+footer .social {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+footer .social a {
+  margin: 0 5px;
+}
+
+footer .social a img {
+  margin-right: 2px;
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+}
+
+footer .copyright p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #919196;
+}
+
+footer .copyright p span {
+  font-size: 13px;
+  color: #555;
+  line-height: 18px;
+}
+
+.compatibility {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.compatibility .symbol {
+  width: 20px;
+  height: 20px;
+}
+
+.compatibility .support {
+  margin-left: 5px;
+  color: #34C759;
+  line-height: 20px;
+}
+
+.screenshots ul {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  list-style-type: disc;
+}
+
+.screenshots ul li {
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 175px;
+  height: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.screenshots ul li:first-child {
+  margin-left: 0;
+}
+
+.screenshots ul li:last-child {
+  margin-right: 0;
+}
+
+.screenshots ul li img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.links .content {
+  padding: 0 15px;
+}
+
+.links .content ul li {
+  position: relative;
+  padding: 10px 0;
+  height: 44px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.changelog .header {
+  height: 24px;
+  font-size: 16px;
+}
+
+.changelog .header h2 {
+  float: left;
+}
+
+.changelog .header span {
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6e6e73;
+}
+
+.changelog p {
+  font-size: 15px;
+}
+
+.svg-icon {
+  width: 24px;
+}

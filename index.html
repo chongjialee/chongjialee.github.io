@@ -1,44 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
-    <title>JFZ&#x27;s Repo</title>
-    <link rel="stylesheet" type="text/css" href="web/index.css">
-    <style>a, .tint {color: 00ffea} .active {color: 00ffea}</style>
-    <meta name="description" content="JFZ&#x27;s jailbreak tweaks">
-    <meta property="og:title" content="JFZ&#x27;s Repo">
-    <meta property="og:description" content="JFZ&#x27;s jailbreak tweaks">
-    <meta property="og:image" content="https://chongjialee.github.io/CydiaIcon.png">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="JFZ&#x27;s Repo">
-    <meta name="twitter:description" content="JFZ&#x27;s jailbreak tweaks">
-    <meta name="twitter:image" content="https://chongjialee.github.io/CydiaIcon.png">
-    <meta name="theme-color" content="00ffea">
+    <title>Repo-Template</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="Repo Template">
+    <meta name="author" content="lichongjia">
+    <!-- favicon 16x16 -->
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <!-- apple touch icon 57x57 -->
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="/css/normalize-v8.css"> -->
+    <link rel="stylesheet" href="css/minireset.css">
+    <link rel="stylesheet" href="css/apple.css">
+    <!-- javascript -->
+    <script type="text/javascript" src="js/style.js"></script>
 </head>
+<!-- <svg class="svg-icon">
+    <use xlink:href="img/ic_nav.svg#homepage" />
+</svg> -->
+
 <body>
-    <div class="body">
-        <h1 class="header left_float">JFZ&#x27;s Repo</h1>
-        <a class="header right_float add_sileo tint" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://chongjialee.github.io">+</a>
-        <div class="scroll_view">
-            <a href="depiction/web/net.angelxwind.appsyncunified.html" style="background-image: url(assets/net.angelxwind.appsyncunified/banner.png)" class="card">
-                <p>AppSync Unified</p>
-            </a>
+    <nav>
+        <div class="content">
+            <a href="index.html"><img src="/img/svg/homepage.svg" alt=""></a>
+            <a href="http://github.com/lichongjia"><img src="/img/svg/jfz.svg" alt=""></a>
+            <a href="tweak.html"><img src="/img/svg/darkmode.svg" alt=""></a>
         </div>
-        <h2 class="header">Packages</h2>
-        <div class="packageList">
-                <a class="subtle_link" href="depiction/web/net.angelxwind.appsyncunified.html">
-                    <div class="package">
-                        <img src="assets/net.angelxwind.appsyncunified/icon.png">
-                        <div class="package_info">
-                            <p class="package_name">AppSync Unified</p>
-                            <p class="package_caption">chongjialee</p>
-                        </div>
-                    </div>
-                </a>
+    </nav>
+    <header>
+        <div class="content">
+            <img class="logo" src="img/logo.png" alt="">
+            <h1 class="title">见风致</h1>
+            <p class="intro">这是我的私人存储库，仅个人用途。<br>收集了一些自己常用的插件。</p>
+            <ul class="addstore">
+                <li><a href=""><img src="/img/cydia.png" alt="">添加到Cydia</a></li>
+                <li><a href=""><img src="/img/sileo.png" alt="">添加到Sileo</a></li>
+                <li><a href=""><img src="/img/installer.png" alt="">添加到Installer</a></li>
+                <li><a href=""><img src="/img/zebra.png" alt="">添加到Zebra</a></li>
+            </ul>
         </div>
-        <div class="caption center footer">Silica 1.2.2 – Updated 2021-03-02</div>
-    </div>
+    </header>
+
+    <main>
+        <!-- 常用链接 -->
+        <section class="useful">
+            <div class="content ">
+                <h2 role="header">常用链接</h2>
+                <p><a class="#" href="#">保存SHSH2</a></p>
+                <p><a href="#">安装屏蔽升级的描述文件</a></p>
+            </div>
+        </section>
+
+        <!-- 插件列表 -->
+        <section class="featured">
+            <div class="content">
+                <h2 role="header">流行趋势</h2>
+                <ul class="tweaks">
+                    <li>
+                        <a href="#">
+                            <img src="/img/tweak_test.png" alt="">
+                            <h3>插件名</h3>
+                            <p>写给插件的一句话简要描述</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/img/tweak_test.png" alt="">
+                            <h3>Tage</h3>
+                            <p>This is a sample text.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/img/tweak_test.png" alt="">
+                            <h3>Tage</h3>
+                            <p>This is a sample text.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="content">
+            <!-- 社交按钮 -->
+            <div class="social">
+                <a href="https://github.com/lichongjia" target="_blank"><img src="/img/social-icon/github.svg"
+                        alt="">Github</a>
+                <a href="https://weibo.com/lichongjia" target="_blank"><img src="/img/social-icon/weibo.svg"
+                        alt="">Weibo</a>
+                <a href="https://twitter.com/lichongjia" target="_blank"><img src="/img/social-icon/twitter.svg"
+                        alt="">Twitter</a>
+            </div>
+
+            <!-- 版权信息 -->
+            <div class="copyright">
+                <p><span>&copy; 2019-2021 见风致</span></p>
+                <p>Designed & Developed by <a href="mailto:lichongjia@vip.qq.com">JianFengZhi</a>.</p>
+            </div>
+        </div>
+    </footer>
 </body>
-    <script src="web/index.js"></script>
+
 </html>
